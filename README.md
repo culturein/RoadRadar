@@ -3,7 +3,7 @@
 내 차의 센서 데이터만으로 빗길·눈길·블랙아이스 위험을 판단해 **운전자에게만** 알려 주는 Pleos Connect 앱입니다.
 현대자동차그룹 차량용 앱 개발 공모전 출품용 프로토타입입니다.
 
-- APK: [`apk/팀명_로드레이더_release.apk`](apk/)
+- APK: [`apk/로드레이더_로드레이더_release.apk`](apk/)
 - 기본 버전은 **위치 정보 없이** 동작합니다.
 - **INTERNET 권한이 없습니다.** 서버, 계정, 외부 전송이 없고 기록은 차량 안(앱 전용 저장소)에만 남습니다.
 
@@ -80,7 +80,7 @@ app/src/test/.../RiskEngineTest.kt   판단 규칙 단위 테스트 13개
 
 **APK로 실행**
 1. Pleos Connect Emulator를 실행합니다.
-2. `apk/팀명_로드레이더_release.apk`를 에뮬레이터 창에 끌어다 놓거나 `adb install apk/팀명_로드레이더_release.apk`로 설치합니다.
+2. `apk/로드레이더_로드레이더_release.apk`를 에뮬레이터 창에 끌어다 놓거나 `adb install apk/로드레이더_로드레이더_release.apk`로 설치합니다.
 3. 에뮬레이터 하단 바의 앱 목록에서 **로드레이더**를 실행합니다.
 
 **소스로 실행**
